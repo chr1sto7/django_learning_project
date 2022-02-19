@@ -1,1 +1,1 @@
-#django learning project
+# django learning project
