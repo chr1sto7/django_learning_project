@@ -57,7 +57,10 @@ ROOT_URLCONF = 'my_blog.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        # sets the directory for where our HTML templates are
+        'DIRS': [
+           BASE_DIR/'templates'
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
